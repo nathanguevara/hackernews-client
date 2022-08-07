@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: #000000 1px;
+}
+.storyContainer {
+    background-color: #F6F6EF;
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+}
+.title {
+    text-decoration: none;
+    color:#000000;
+}
+.story {
+    text-decoration: none;
+}
+.subTitle {
+    color: #696969;
+    font-size: smaller;
+}
+.link {
+    color: #696969;
+}
