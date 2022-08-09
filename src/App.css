@@ -1,25 +1,36 @@
 .container {
-    display: flex;
-    flex-direction: row;
+    background-color: #ffffff;
     border: #000000 1px;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
 }
 .storyContainer {
     background-color: #F6F6EF;
-    width: 85%;
-    margin: auto;
-    padding: 10px;
+    font-size: 14px;
+    /* border: red 1px dashed; */
+    width: calc(85% - 10px);
+    margin: 0 auto;
+    padding: 3px;
 }
 .title {
     text-decoration: none;
     color:#000000;
+    
 }
 .story {
-    text-decoration: none;
+    
+    
 }
 .subTitle {
     color: #696969;
     font-size: smaller;
+    margin: auto;
 }
 .link {
     color: #696969;
+    
+}
+.thingy {
+    padding: 0 16px;
+    margin: auto;
 }
