@@ -34,3 +34,69 @@
     padding: 0 16px;
     margin: auto;
 }
+/* copypasta below */
+.headerContainer {
+    background-color: #ff742b;
+    height: 80px;
+    display: flex;
+    width: calc(85% - 10px);
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 48px;
+    margin-right: 8px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    /* margin-left: 60px;
+    margin-right: 40px; */
+  }
+  
+  .searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .searchInput {
+    border-radius: 0;
+    border: none;
+    height: 42px;
+    width: 100%;
+    box-shadow: none;
+    padding: 16px 144px 16px 54px;
+    font-weight: 300;
+    background-color: #fff;
+    color: rgba(0,0,0,.75);
+    /* height: 30px;
+    width: 250px;
+    border: none;
+    font-size: 18px;
+    background-color: #f1faee; */
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .searchButton {
+    height: 32px;
+    border: none;
+    background-color: #f1faee;
+  }
+  
+  .searchBy {
+    color: #f1faee;
+    display: flex;
+    padding-top: 10px;
+  }
+  .radio {
+    padding-left: 15px;
+  }
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }

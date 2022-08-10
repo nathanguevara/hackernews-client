@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Story from "./story";
-// import Search from "./search";
+
 
 function SearchResults() {
     const [stories, setStories] = useState([]);
@@ -18,7 +18,6 @@ useEffect(() => {
   getStories();
 }, []);    
     return (
-        
         <div className="container">
           {stories.map((story) => {
             return <Story key={story.objectID} {...story} />;
