@@ -1,5 +1,5 @@
 import React from "react"
-
+import ButtonWithDropDownCmpt from "../../buttonDropDownCmpt"
 
 function Header(props) {
   return (
@@ -18,6 +18,7 @@ function Header(props) {
           ></input>
           <input type="submit" value="Search"></input>
         </form>
+       <ButtonWithDropDownCmpt></ButtonWithDropDownCmpt>
       </header>
     </>
   )
