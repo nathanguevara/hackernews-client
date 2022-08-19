@@ -1,5 +1,6 @@
 import React from "react"
-import ButtonWithDropDownCmpt from "../../buttonDropDownCmpt"
+import DropDownCard from "../../dropDownCard"
+
 
 function Header(props) {
   return (
@@ -18,7 +19,7 @@ function Header(props) {
           ></input>
           <input type="submit" value="Search"></input>
         </form>
-       <ButtonWithDropDownCmpt></ButtonWithDropDownCmpt>
+       <DropDownCard></DropDownCard>
       </header>
     </>
   )

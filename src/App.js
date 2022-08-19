@@ -2,6 +2,7 @@ import { Component } from "react"
 import axios from "axios"
 import './App.css';
 
+import DropDownCard from "./dropDownCard";
 import Header from "./components/header/Header"
 import List from "./components/list/List"
 
@@ -48,12 +49,14 @@ class App extends Component {
       this.setState({ posts })
     })
   }
+  
 
   render() {
     return (
       <div>
         <Header state={this.state} searchChange={this.searchChange} searchHandler={this.searchHandler}/>
         <List state={this.state} hide={this.hideComment}/>
+        <DropDownCard />
       </div>
     )
   }
