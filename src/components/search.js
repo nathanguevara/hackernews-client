@@ -7,7 +7,8 @@ const Search = (props) => {
       <div className="logoContainer">
       <img className="logo" src="https://d1sz9gun5ag95e.cloudfront.net/packs/media/images/logo-hn-search-a822432b.png" alt={props.title}/>
       </div>
-    <p>Search Hacker News</p>
+      <div className="textAfterLogo">
+    <h4>Search <br></br> Hacker News</h4></div>
       <div className="searchContainer">
         <div className="inputContainer">
           <input

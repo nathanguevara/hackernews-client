@@ -17,50 +17,49 @@
     color:#000000;
     
 }
-.story {
-    
-    
-}
 .subTitle {
     color: #696969;
     font-size: smaller;
     margin: auto;
 }
 .link {
-    color: #696969;
-    
+    color: #696969;   
 }
 .thingy {
     padding: 0 16px;
     margin: auto;
 }
-/* copypasta below */
 .headerContainer {
     background-color: #ff742b;
     height: 80px;
     display: flex;
     width: calc(85% - 10px);
     margin: 0 auto;
-  }
-  
+    padding: 3px;
+  } 
   .logo {
     width: 48px;
     margin-right: 8px;
   }
-  
+  .textAfterLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .logoContainer {
     display: flex;
     align-items: center;
     /* margin-left: 60px;
     margin-right: 40px; */
   }
-  
   .searchContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: calc(85% - 10px);
+    margin: 0 auto;
+    padding: 3px;
   }
-  
   .searchInput {
     border-radius: 0;
     border: none;
@@ -77,26 +76,38 @@
     font-size: 18px;
     background-color: #f1faee; */
   }
-  
   input:focus {
     outline: none;
   }
-  
   .searchButton {
     height: 32px;
     border: none;
     background-color: #f1faee;
   }
-  
   .searchBy {
     color: #f1faee;
     display: flex;
     padding-top: 10px;
   }
-  .radio {
-    padding-left: 15px;
-  }
   .App-logo {
     height: 40vmin;
     pointer-events: none;
   }
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f1faee;
+    width: calc(85% - 10px);
+    margin: 0 auto;
+    padding: 3px;
+    height: 10px;
+    padding-bottom: 10px;
+  }
+
+@media only screen and (max-width: 1200px) {
+  .storyContainer {width: 100%;}
+  .headerContainer {width: 100%;}
+  .dropdown {width: 100%;}
+
+}
